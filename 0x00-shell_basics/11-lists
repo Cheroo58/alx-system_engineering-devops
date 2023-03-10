@@ -1,0 +1,9 @@
+#!/bin/bash
+echo -e ".:
+$(ls -1la)
+
+..:
+$(ls -1la ../)
+
+/boot:
+$(ls -1la /boot)"
