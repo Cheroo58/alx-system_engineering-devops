@@ -1,9 +1,2 @@
 #!/bin/bash
-echo -e ".:
-$(ls -1la)
-
-..:
-$(ls -1la ../)
-
-/boot:
-$(ls -1la /boot)"
+echo -e ".:\n$(ls -1la)\n\n..:\n$(ls -1la ../)\n\n/boot:\n$(ls -1la /boot)"'
